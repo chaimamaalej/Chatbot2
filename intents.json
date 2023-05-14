@@ -1,0 +1,135 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "How are you",
+        "Good day"
+      ],
+      "responses": [
+        "Hey!",
+        "Hello, what can I do for you?",
+        "Hello, thanks for visiting",
+        "Hi there, how can I help?",
+        "Hello"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","Au revoir"],
+      "responses": [
+        "Have a nice day",
+        "See you later, thanks for visiting",
+        "Bye!",
+        "Come back again soon"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["For sure", "Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "about_bot",
+      "patterns": [
+        "Who are you?", "What are you?", "Tell me about yourself."
+      ],
+      "responses": [
+        "I'm a chatbot designed to help you with your queries.", 
+        "I'm an AI-powered chatbot here to assist you.", 
+        "I'm here to answer your questions and provide support."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I need help", "Can you help me?", "What can you do?", "I don't understand."
+      ],
+      "responses": [
+        "Sure, I'll do my best to help you.", "Of course, what do you need help with?", 
+        "I can assist you with a wide range of topics, just let me know what you're struggling with."
+      ]
+    },
+    {
+      "tag": "greeting_time",
+      "patterns": [
+        "Good morning", "Good afternoon", "Good evening", "Hello there"
+      ],
+      "responses": [
+        "Good morning! How can I assist you today?", "Good afternoon! How may I be of service?", 
+        "Good evening! What can I help you with?", "Hello! How can I assist you?"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+
+    "tag": "feedback",
+      "patterns": [
+        "How was your experience?", "Can you improve?", "Do you have any suggestions?"
+      ],
+      "responses": [
+        "Thank you for your feedback. I will try to improve my services.", "I appreciate your suggestions and will work on them.", 
+        "Your feedback is valuable to me. Thank you."
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+        "I need help", "Can you assist me?", "My account isn't working."
+      ],
+      "responses": [
+        "I'm sorry to hear that. How can I help?", "Let me see what I can do to assist you.", 
+        "Please provide more details about the issue you are facing."
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "What's the latest news?", "What's happening in the world?", "Can you tell me some news?"
+      ],
+      "responses": [
+        "Here are some headlines from today's news:", "The top news stories today are:", "In case you missed it, here are the latest news stories:"
+      ]
+    },
+    {
+      "tag": "data_layer",
+      "patterns": [
+        "What is the data layer in blockchain?",
+        "How is data stored in blockchain?",
+        "What is a Merkle tree in blockchain?",
+        "What are the challenges and solutions for data storage in blockchain?"
+      ],
+      "responses": [
+        "The data layer in blockchain handles the storage and management of data on the blockchain.",
+        "Data is stored in blockchain using a distributed and decentralized approach, where each block contains a set of transactions or data records.",
+        "A Merkle tree is a tree structure used in blockchain to verify the integrity of data in a block by creating a cryptographic hash of the data.",
+        "Challenges in data storage in blockchain include scalability, privacy, and cost, and solutions include sharding, encryption, and off-chain storage."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like today?", 
+        "Is it going to rain?", "How hot is it outside?"
+      ],
+      "responses": [
+        "It's sunny and warm today.", "There's a chance of rain later.", 
+        "The temperature is currently 25 degrees Celsius."
+      ]
+    } 
+  ]
+}
